@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Racing Game
+</name>
+</assembly>
+<members>
+<member name="T:Racing_Game.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Racing_Game.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Racing_Game.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Racing_Game.Form1.gameover">
+ <summary>
+ ''''''''''''''''''''''''''''''''''''''''''''''''''gameover function resets the game'''''''''''''''''''''''''''''''''''''''''''
+ </summary>
+</member>
+<member name="M:Racing_Game.Form1.Timer2_Tick(System.Object,System.EventArgs)">
+ <summary>
+ to move car left
+ </summary>
+</member>
+<member name="M:Racing_Game.Form1.RightM_Tick(System.Object,System.EventArgs)">
+ <summary>
+ to move car right
+ </summary>
+</member>
+<member name="M:Racing_Game.Form1.Form1_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ to stop car moving
+ </summary>
+</member>
+<member name="M:Racing_Game.Form1.enemy1M_Tick(System.Object,System.EventArgs)">
+ <summary>
+ propertires of enemy cars START
+ </summary>
+</member>
+<member name="M:Racing_Game.Form1.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ propertires of enemy cars END
+ when we click restart button refresh the page
+ </summary>
+</member>
+<member name="M:Racing_Game.Form1.Form1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ at runtime when we hold a key START
+ </summary>
+</member>
+<member name="M:Racing_Game.Form1.golimover_Tick(System.Object,System.EventArgs)">
+ <summary>
+ at runtime when we hold a key END
+ to move our goli forward START
+ </summary>
+</member>
+<member name="M:Racing_Game.Form1.golilr_Tick(System.Object,System.EventArgs)">
+ <summary>
+ to move our goli forward END
+ to keep our goli with the car START 
+ </summary>
+</member>
+</members>
+</doc>
